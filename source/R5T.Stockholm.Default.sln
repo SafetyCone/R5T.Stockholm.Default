@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stockholm.Default.Construction", "R5T.Stockholm.Default.Construction\R5T.Stockholm.Default.Construction.csproj", "{7C0C383B-C1FE-4B8E-8976-BEACDA19A0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stockholm.Default.Construction", "R5T.Stockholm.Default.Construction\R5T.Stockholm.Default.Construction.csproj", "{7C0C383B-C1FE-4B8E-8976-BEACDA19A0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stockholm.Default", "R5T.Stockholm.Default\R5T.Stockholm.Default.csproj", "{E7B1A388-C9BB-445C-A115-75129C82CA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stockholm.Default", "R5T.Stockholm.Default\R5T.Stockholm.Default.csproj", "{E7B1A388-C9BB-445C-A115-75129C82CA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stockholm.Default.Testing", "R5T.Stockholm.Default.Testing\R5T.Stockholm.Default.Testing.csproj", "{359DE36E-6468-423C-BF17-75EB0FE91A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stockholm.Default.Testing", "R5T.Stockholm.Default.Testing\R5T.Stockholm.Default.Testing.csproj", "{359DE36E-6468-423C-BF17-75EB0FE91A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stockholm.Base", "..\..\R5T.Stockholm.Base\source\R5T.Stockholm.Base\R5T.Stockholm.Base.csproj", "{3B57378E-1981-49A7-BEC6-584DCFB13CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{0D4DB702-4194-48F9-895F-B746E907CA94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7C0C383B-C1FE-4B8E-8976-BEACDA19A0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{359DE36E-6468-423C-BF17-75EB0FE91A75}.Release|x64.Build.0 = Release|Any CPU
 		{359DE36E-6468-423C-BF17-75EB0FE91A75}.Release|x86.ActiveCfg = Release|Any CPU
 		{359DE36E-6468-423C-BF17-75EB0FE91A75}.Release|x86.Build.0 = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|x64.Build.0 = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Debug|x86.Build.0 = Debug|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|x64.ActiveCfg = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|x64.Build.0 = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|x86.ActiveCfg = Release|Any CPU
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B57378E-1981-49A7-BEC6-584DCFB13CA1} = {0D4DB702-4194-48F9-895F-B746E907CA94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B80EADFF-F210-4738-B09A-F05B4A0E6DCD}
 	EndGlobalSection
 EndGlobal
