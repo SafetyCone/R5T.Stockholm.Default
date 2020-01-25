@@ -11,6 +11,6 @@ namespace R5T.Stockholm.Default
 
     public class StreamSerializerOptions
     {
-        public const bool DefaultAddByteOrderMark = true;
+        public const bool DefaultAddByteOrderMark = false;
     }
 }
